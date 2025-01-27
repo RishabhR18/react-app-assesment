@@ -11,7 +11,7 @@ const App = () => {
   const [favorites, setFavorites] = useState([]);
   const [selectedCard, setSelectedCard] = useState(null);
   const [showPopup, setShowPopup] = useState(false);
-  const navigate = useNavigate();
+  //const navigate = useNavigate();
 
   useEffect(() => {
     setData(dataJson);
@@ -24,7 +24,7 @@ const App = () => {
   };
 
   const handleOpen = (card) => {
-    navigate(`/details/${card.guid}`, { state: card });
+    //navigate(`/details/${card.guid}`, { state: card });
   };
 
   return (
