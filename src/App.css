@@ -100,3 +100,10 @@
 .close-button:hover {
   background-color: #dc2626;
 }
+
+.details-page{
+  border: 4px solid red;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 16px;
+}
