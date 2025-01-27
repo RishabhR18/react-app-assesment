@@ -29,7 +29,6 @@ const App = () => {
 
   return (
     <div className="grid-container">
-      aaaaaaaaa
       {data.map((card) => (
         <div key={card._id} className="card">
           <div className="favorite-icon">
